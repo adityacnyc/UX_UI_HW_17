@@ -9,6 +9,7 @@ body{
     background: #F5F5F5;
     color:black
 }
+
 #header{
     width: 100%;
     margin-bottom: 50px;
@@ -16,6 +17,7 @@ body{
     background-position: center;
     text-align: center;
 }
+
 .container{
     padding: 10px 10%;
 }
@@ -47,24 +49,11 @@ nav ul li a{
     position:relative;
 }
 
-nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #2f2f2f;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.3s;
-}
-nav ul li a:hover::after{
-    width: 100%
-}
-
 .header-text{
     margin-top: 10%;
     font-size: 30px;
 }
+
 .header-text h1{
     font-size: 40px;
     margin-top: 30px;
@@ -127,7 +116,7 @@ nav ul li a:hover::after{
     width: 100%
 }
 
-.tab-link.active-link::after{
+.tab-link:active-link::after{
     width: 50%;
 }
 
@@ -152,6 +141,7 @@ nav ul li a:hover::after{
 
 
 ----work----
+
 #work{
     padding: 50px 0;
 }
